@@ -1,0 +1,65 @@
+.enrolled-container {
+  padding: 30px;
+}
+
+.enrolled-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.enrolled-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.enrolled-card {
+  padding: 20px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.enrolled-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.pdf-btn,
+.video-btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.pdf-btn {
+  background: #20bf6b;
+}
+
+.pdf-btn:hover {
+  background: #1eaa60;
+}
+
+.video-btn {
+  background: #eb3b5a;
+}
+
+.video-btn:hover {
+  background: #d7334f;
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555;
+}
